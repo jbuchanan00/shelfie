@@ -12,3 +12,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+img{
+  height: 150px;
+  width: 150px;
+}
+header{
+  display: flex;
+  height: 10vh;
+  border: 1px solid #000;
+  background: #ab2a19;
+  align-items: center;
+  
+}
+.logo{
+  margin: 15px;
+  height: 40px;
+  width: 40px;
+}
+.DashButtons{
+  display: flex;
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  justify-content: center;
+  margin: 5px;
+}
+.body{
+  display: flex;
+}
+.itemDisplay{
+  display: flex;
+  flex-direction: column;
+}
+.deleteButton{
+  height: 20px;
+  width: 80px;
+  border-radius: 20px;
+}
